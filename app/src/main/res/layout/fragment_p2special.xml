@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p2special">
+
+    <TextView
+        android:id="@+id/cyber"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="5. Cyber Security"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/it"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:text="6. Information Technology"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/cn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="110dp"
+        android:text="7. Computer Networking"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/block"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="8. Block Chain Technology"
+        android:textSize="20dp"></TextView>
+</RelativeLayout>

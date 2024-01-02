@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p1special">
+
+    <TextView
+        android:id="@+id/ai"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="1. Artificial intelligence and ML"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/cloud"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="55dp"
+        android:text="2. Cloud Computing"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/da"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:text="3. Data Analytics"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/iot"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="145dp"
+        android:text="4. Internet of Things"
+        android:textSize="20dp"></TextView>
+</RelativeLayout>
