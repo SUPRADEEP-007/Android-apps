@@ -30,7 +30,7 @@ public class p1special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(Cot.AI);
+                i.senddata1(Cot.AI);
             }
         });
 
@@ -38,7 +38,7 @@ public class p1special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(Cot.cl);
+                i.senddata2(Cot.cl);
             }
         });
 
@@ -46,7 +46,7 @@ public class p1special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(Cot.dat);
+                i.senddata3(Cot.dat);
             }
         });
 
@@ -54,7 +54,7 @@ public class p1special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(Cot.iot);
+                i.senddata4(Cot.iot);
             }
         });
 

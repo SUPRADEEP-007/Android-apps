@@ -28,7 +28,7 @@ public class p2special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(p2special.Cott.CY);
+                i.senddata5(p2special.Cott.CY);
             }
         });
 
@@ -36,7 +36,7 @@ public class p2special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(p2special.Cott.IT);
+                i.senddata6(p2special.Cott.IT);
             }
         });
 
@@ -44,7 +44,7 @@ public class p2special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(p2special.Cott.CN);
+                i.senddata7(p2special.Cott.CN);
             }
         });
 
@@ -52,7 +52,7 @@ public class p2special extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaces i=(interfaces) getActivity();
-                i.senddata(p2special.Cott.BL);
+                i.senddata8(p2special.Cott.BL);
             }
         });
         return view;

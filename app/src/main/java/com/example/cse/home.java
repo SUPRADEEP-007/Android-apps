@@ -52,4 +52,11 @@ public class home extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        // Close the app when the back button is pressed in this activity
+        super.onBackPressed();
+        finishAffinity();
+    }
 }

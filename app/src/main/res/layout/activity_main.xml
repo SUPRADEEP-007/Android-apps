@@ -30,7 +30,7 @@
         android:layout_marginTop="280dp"
         android:layout_marginBottom="350dp"
         android:layout_marginRight="50dp"
-        android:text="username"
+        android:hint="username"
         android:textSize="20dp"
         android:drawableLeft="@drawable/username"
         android:drawablePadding="20dp"
@@ -45,7 +45,7 @@
         android:layout_marginTop="380dp"
         android:layout_marginBottom="450dp"
         android:layout_marginRight="50dp"
-        android:text="password"
+        android:hint="password"
         android:textSize="20dp"
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="25dp"
@@ -62,28 +62,16 @@
         android:padding="5dp"
         android:text="Login"></Button>
 
-    <TextView
-        android:id="@+id/forgotpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginRight="170dp"
-        android:gravity="center"
-        android:text="Forgot password ?"
-        android:textColor="#0D208C"
-        android:textSize="18dp"
-        android:textStyle="bold"></TextView>
+
 
     <TextView
         android:id="@+id/newuser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="280dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="50dp"
         android:gravity="center"
-
         android:text="new user"
         android:textColor="#0D208C"
         android:textSize="18dp"

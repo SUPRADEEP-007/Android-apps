@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/upgrade"
     tools:context=".upgradeyou">
 
     <TextView
@@ -14,14 +13,16 @@
         android:gravity="center"
         android:text="Updrade yourself"
         android:textColor="@color/black"
-        android:textSize="25dp"></TextView>
+        android:textSize="25dp"
+        android:background="@color/design_default_color_secondary"></TextView>
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/up"
         android:columnCount="2"
-        android:rowCount="4">
+        android:rowCount="4"
+        android:background="@drawable/upgrade">
 
         <androidx.cardview.widget.CardView
             android:layout_width="28dp"
@@ -33,7 +34,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,7 +48,6 @@
                     android:id="@+id/dsa"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
                     android:gravity="center"
                     android:text="DSA"
                     android:textColor="@color/black"
@@ -65,7 +66,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -97,7 +99,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -130,7 +133,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -161,7 +165,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -192,7 +197,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -223,7 +229,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -254,7 +261,8 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
